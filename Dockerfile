@@ -1,9 +1,9 @@
-FROM persapiens/maven-oraclejdk:3.3.9-8u121
+FROM persapiens/maven-oraclejdk:3.5.0-8u121
 MAINTAINER Marcelo Fernandes <persapiens@gmail.com>
 
 # update and upgrade
 RUN apt-get update -qqy && \
-    apt-get upgrade -qqy --no-install-recommends 
+    apt-get upgrade -qqy --no-install-recommends
 
 # install headless gui tools
 RUN apt-get install -qqy xvfb libgconf-2-4

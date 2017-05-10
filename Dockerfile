@@ -1,4 +1,4 @@
-FROM persapiens/maven-oraclejdk:3.5.0-8u121
+FROM persapiens/maven-oraclejdk:3.5.0-8u131
 MAINTAINER Marcelo Fernandes <persapiens@gmail.com>
 
 # update and upgrade
